@@ -1,14 +1,20 @@
-CREATE TABLE all_season (
+DROP TABLE all_season;
+DROP TABLE shot_logs;
+
+
+
+
+CREATE TABLE all_season(
   id INT PRIMARY KEY,
-  player_name TEXT,
-	age int,
-	team_abbreviation TEXT,
-	player_height INT,
-	player_weight INT,
+  Player TEXT,
+	Age int,
+	Team TEXT,
+	Height INT,
+	Weight INT,
 	points INT,
-	rebound INT,
-	assit INT,
-	season INT
+	Rebounds INT,
+	Assist INT,
+	Season INT
 	);
 	
 
