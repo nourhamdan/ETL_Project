@@ -1,5 +1,5 @@
-DROP TABLE all_season;
-DROP TABLE shot_logs;
+DROP TABLE if exists all_season;
+DROP TABLE if exists shot_logs;
 
 
 
