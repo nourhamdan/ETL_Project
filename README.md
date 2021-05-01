@@ -11,7 +11,8 @@ This was the dataset for shot records for the 14-15 season. - https://www.kaggle
 
 Transform - First we transformed data from the all_season csv by filtering out the headers that we did not want to use and didn't correlate with our second dataset. 
 After that we renamed the headers so it can look more appealing. Then we wanted to get rid of all seasons pior to the 2013-14 seaons, so that it can match up with our 
-shot_log csv file because that one only have two seasons avaible which were the 2013-14 and 2014-15 seasons, so we dropped the rows 1996-97 through 2012-2013.
+shot_log csv file because that one only have two seasons avaible which were the 2013-14 and 2014-15 seasons, so we dropped the rows 1996-97 through 2012-2013, and also
+ dropped rows great than 2016-17 becuase there was no correlation to the shot_log csv
 
 For the shot_log csv we started off by matching up the player names and getting it in the right format so that we can match it with the all_season csv file, so we wanted 
 the correct spelling by making the first letter of each first and last name capitalized and the rest lower case. Then we filtered out the headers so they can correlate with the all_season csv. 
@@ -19,4 +20,4 @@ the correct spelling by making the first letter of each first and last name capi
 
 
 
-Load -
+Load - We loaded both tables of the datasets onto AWS (Amazon Web Services)
