@@ -22,3 +22,4 @@ the correct spelling by making the first letter of each first and last name capi
 
 
 Load - We loaded both tables of the datasets onto AWS (Amazon Web Services)
+![nbashot](https://user-images.githubusercontent.com/78324732/116792431-24857e00-aa86-11eb-9abe-0907c07149e5.png)
