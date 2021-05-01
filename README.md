@@ -1,4 +1,4 @@
-![nbashot](https://user-images.githubusercontent.com/78324732/116792431-24857e00-aa86-11eb-9abe-0907c07149e5.png)
+
 # ETL_Project
 ETL project , NBA Stats from the 2014-2015 Season
 
@@ -19,7 +19,8 @@ For the shot_log csv we started off by matching up the player names and getting 
 the correct spelling by making the first letter of each first and last name capitalized and the rest lower case. Then we filtered out the headers so they can correlate with the all_season csv. 
 
 
-
-
 Load - We loaded both tables of the datasets onto AWS (Amazon Web Services)
+
+
+
 ![nbashot](https://user-images.githubusercontent.com/78324732/116792431-24857e00-aa86-11eb-9abe-0907c07149e5.png)
